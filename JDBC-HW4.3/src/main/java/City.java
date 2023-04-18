@@ -14,4 +14,5 @@ public class City {
     public String getCityName() {
         return this.cityName;
     }
+
 }

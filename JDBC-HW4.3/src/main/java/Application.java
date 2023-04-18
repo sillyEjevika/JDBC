@@ -4,7 +4,7 @@ public class Application {
     public static void main(String[] args) {
         stringEmployeeId(2);
         EmployeeDAO employeeDAO = new EmployeeDAOImpl();
-        Employee employee = new Employee("Vadim", "Sokolov", "male", 25, 3);
+        Employee employee = new Employee("Vadim", "Sokol", "male", 25, 3);
         System.out.println(employeeDAO.saveEmployee(employee));
         employeeDAO.employeeFromId(4);
         employeeDAO.allEmployee();
