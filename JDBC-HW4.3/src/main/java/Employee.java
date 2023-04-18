@@ -35,5 +35,6 @@ public class Employee {
     public int getCityId() {
         return cityId;
     }
+
 }
 
